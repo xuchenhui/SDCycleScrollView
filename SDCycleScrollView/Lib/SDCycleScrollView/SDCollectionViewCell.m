@@ -77,6 +77,7 @@
 - (void)setupTitleLabel
 {
     UILabel *titleLabel = [[UILabel alloc] init];
+    titleLabel.numberOfLines = 0;
     _titleLabel = titleLabel;
     _titleLabel.hidden = YES;
     [self.contentView addSubview:titleLabel];
